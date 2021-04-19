@@ -1,0 +1,42 @@
+.profile{
+    padding: 10px;
+}
+.profile-info{
+    display:flex;
+    
+}
+.profile-info img{
+    width:150px;
+}
+.about-me{
+    margin:10px;
+}
+.about-me .name{
+    font-size: 25px;
+    font-weight: 500;
+}
+.profile .post{
+    background:#eee;
+    border: 2px solid #ddd
+}
+.posts .new-post{
+    display: flex;
+    margin:15px 0;
+}
+.new-post textarea{
+    width:200px;
+    resize: none;
+}
+.post div{
+    display:flex;
+}
+.post .name{
+    display: flex;
+    align-items: center;
+    padding-left:10px;
+}
+.post img{
+    border-radius: 30px;
+    width: 50px;
+}
+

@@ -1,0 +1,28 @@
+
+.inputMessage button{
+    border: 1px solid black;
+    margin: 10px  ;
+    padding: 5px;
+    border-radius: 5px; 
+    background-color:rgb(184, 219, 113);
+
+}
+.inputMessage textarea{
+    width:250px;
+    resize: none;
+    margin:10px;
+}
+.messages{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.dialog p {
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(190, 245, 199);
+}
+.dialog .mine{
+    background-color: rgb(245, 228, 190);
+    text-align: right;
+}
