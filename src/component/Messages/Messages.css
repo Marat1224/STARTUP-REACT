@@ -26,3 +26,20 @@
     background-color: rgb(245, 228, 190);
     text-align: right;
 }
+.users{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    margin: 10px;
+
+}
+.user{
+    margin:5px 0;
+    padding:15px;
+    border-radius: 30px;
+    background-color:rgb(190, 245, 199);
+    cursor: pointer
+}
+.user:hover{
+    box-shadow: 0 0 10px rgb(190, 245, 199);
+}
